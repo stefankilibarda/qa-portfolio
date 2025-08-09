@@ -1,15 +1,13 @@
 {
-  "name": "software_testing_board",
+  "name": "magento-cypress",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "private": true,
   "devDependencies": {
-    "cypress": "^14.5.4"
+    "@testing-library/cypress": "^10.0.3",
+    "cypress": "^13.14.0"
+  },
+  "scripts": {
+    "open": "cypress open",
+    "run": "cypress run"
   }
 }
