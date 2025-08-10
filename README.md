@@ -9,13 +9,14 @@ Curated showcase of my manual & automated QA work – Cypress suites, Postman co
 This repository contains multiple projects and resources that highlight different areas of my QA skills.
 
 ### 1️⃣ **Automation Projects**
-- **Automation Exercise – Cypress E2E Tests**  
+- **Cypress – Automation Exercise E2E Tests**  
   End-to-end test automation for the [Automation Exercise](https://automationexercise.com/) demo e-commerce site.  
   Covers authentication, product search, cart & checkout, and miscellaneous flows.  
   📄 [Project README](cypress_automation_exercise/README.md)
 
-- **Software Testing Board – Cypress E2E Tests** *(in progress)*  
-  Automated tests for [Magento demo site](https://magento.softwaretestingboard.com/) focusing on real-world e-commerce flows.
+- **Cypress – Software Testing Board E2E Tests** *(in progress)*  
+  Automated tests for [Magento demo site](https://magento.softwaretestingboard.com/) focusing on real-world e-commerce flows.  
+  📄 [Project README](cypress_software_testing_board/README.md)
 
 ---
 
@@ -74,4 +75,5 @@ This repository contains multiple projects and resources that highlight differen
 ---
 
 ## 📄 License
-This portfolio is for **educat**
+This portfolio is for **educational and demonstration purposes only**.  
+Unauthorized commercial use is prohibited.
