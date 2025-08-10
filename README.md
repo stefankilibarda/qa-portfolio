@@ -21,14 +21,23 @@ This repository contains multiple projects and resources that highlight differen
 ---
 
 ### 2️⃣ **Manual Testing**
+- **Test Plan – Automation Exercise**  
+  Comprehensive test plan for the [Automation Exercise](https://automationexercise.com/) site, including objectives, scope, strategy, test types, schedules, and release criteria.  
+  📄 [Test Plan README](manual_testing/test_plan/README.md)
+
 - **Test Cases** – Structured manual cases demonstrating clarity, completeness, and NDA compliance *(URLs removed and sensitive info anonymized)*.  
   📄 [Test Cases README](manual_testing/test_cases/README.md)
 
 - **Test Design Techniques** – Exercises showcasing application of testing design methodologies.  
   📄 [Test Design Techniques README](manual_testing/test_design_techniques/README.md)
 
-- **Bug Reports** – Mobile and web bug reports demonstrating clear reproduction steps, expected/actual results, and professional formatting.  
-  📄 [Bug Reports README](manual_testing/bug_reports/README.md)
+- **Bug Reports – Mobile App**  
+  Example bug reports for a *generic* mobile social media application.  
+  📄 [Mobile App Bug Reports README](manual_testing/bug_reports/README.md)
+
+- **Bug Reports – Web Application**  
+  Example bug reports for various *generic* web applications, demonstrating professional formatting, clear reproduction steps, and prioritization.  
+  📄 [Web Bug Reports](manual_testing/bug_reports/bug_reports.md)
 
 ---
 
@@ -61,7 +70,7 @@ This repository contains multiple projects and resources that highlight differen
 
 1. Browse each project’s folder for its own `README.md` file.
 2. For automation projects, follow the installation steps in their READMEs to run tests locally.
-3. Manual testing examples are view-only in `.md` format.
+3. Manual testing examples, test plans, and bug reports are view-only in `.md` format.
 4. MySQL exercises can be reviewed directly but require your own database to execute.
 
 ---
