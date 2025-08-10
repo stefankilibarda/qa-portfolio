@@ -26,9 +26,9 @@ This repository contains multiple projects and resources that highlight differen
 
 ---
 
-### 3️⃣ **API Testing**
-- **Postman Collections** – REST API tests for public and internal endpoints.
-- Includes request/response validations, parameter testing, and authentication flows.
+## 📌 API Testing Examples
+- [🐾 Pet Store API Testing – Postman](api_testing/README.md)
+
 
 ---
 
