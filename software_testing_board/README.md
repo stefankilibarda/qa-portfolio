@@ -18,7 +18,7 @@ The Magento demo site is designed for testing and learning, so these tests are s
 ---
 
 ## File Structure
-
+```
 software_testing_board/
 ├── cypress/
 │ ├── e2e/
@@ -38,6 +38,7 @@ software_testing_board/
 ├── cypress.config.js
 ├── package.json
 └── README.md
+```
 
 
 ### Directory Overview
@@ -87,24 +88,29 @@ This `software_testing_board` project is intentionally kept **separate from othe
 
 ### 1. Install dependencies
 
-cd software_testing_board
-npm install
+- cd software_testing_board
+- npm install
 
 ### 2. Open Cypress Test Runner
 
-npx cypress open
+- npx cypress open
+- Select E2E Testing → choose your browser → click on a spec file.
+
+### 3. Run Tests in Headless Mode
+
+- npx cypress run
 
 ### 🔑 Test Data
 
-First Name: Darth
-Last Name: Vader
-Email: darth.vader+<timestamp>@example.com (generated dynamically per test)
-Address: Death Star
-Password: Test1234!
+- First Name: Darth
+- Last Name: Vader
+- Email: darth.vader+<timestamp>@example.com (generated dynamically per test)
+- Address: Death Star
+- Password: Test1234!
 
-📌 Notes
+### 📌 Notes
 
-This project uses dynamic product selection where possible to avoid “requested qty not available” errors on the demo site.
-Cypress artifacts (videos/, screenshots/) should be gitignored to keep the repo clean.
-Tests are written at a junior QA engineer level – straightforward selectors and minimal abstraction for clarity.
+- This project uses dynamic product selection where possible to avoid “requested qty not available” errors on the demo site.
+- Cypress artifacts (videos/, screenshots/) should be gitignored to keep the repo clean.
+- Tests are written at a junior QA engineer level – straightforward selectors and minimal abstraction for clarity.
 

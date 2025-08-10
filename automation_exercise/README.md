@@ -6,7 +6,7 @@ It was created to demonstrate test automation skills using **Cypress** in JavaSc
 ---
 
 ## 📂 Project Structure
-
+```
 cypress/
 ├── e2e/
 │ ├── auth.cy.js
@@ -18,7 +18,7 @@ cypress/
 cypress.config.js
 package.json
 README.md
-
+```
 
 ---
 
@@ -59,30 +59,30 @@ README.md
 
 ### 1️⃣ Install Dependencies
 
-npm install
+- npm install
 
 ### 2️⃣ Run Tests in Cypress Test Runner
 
-npx cypress open
-Select E2E Testing → choose your browser → click on a spec file.
+- npx cypress open
+- Select E2E Testing → choose your browser → click on a spec file.
 
 ### 3️⃣ Run Tests in Headless Mode
 
-npx cypress run
+- npx cypress run
 
 ### 🔑 Test Data
 
 All tests use:
-First name: Rick
-Last name: Sanchez
-Address: That Street
-Password: Password123!
-Email: Dynamic, prefixed with pickle_rick (e.g., pickle_rick_1691600000000@example.com)
+- First name: Rick
+- Last name: Sanchez
+- Address: That Street
+- Password: Password123!
+- Email: Dynamic, prefixed with pickle_rick (e.g., pickle_rick_1691600000000@example.com)
 
 ### 📌 Notes
-The node_modules folder is excluded via .gitignore and should be installed fresh after cloning.
-Emails are dynamically generated to avoid conflicts when registering multiple times.
-All selectors target stable data-qa attributes or other consistent DOM elements to reduce flakiness.
+- The node_modules folder is excluded via .gitignore and should be installed fresh after cloning.
+- Emails are dynamically generated to avoid conflicts when registering multiple times.
+- All selectors target stable data-qa attributes or other consistent DOM elements to reduce flakiness.
 
 ### 📄 License
-This project is for educational and portfolio purposes only. The target website is a public practice site intended for automation testing.
+- This project is for educational and portfolio purposes only. The target website is a public practice site intended for automation testing.
