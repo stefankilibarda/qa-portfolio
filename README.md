@@ -12,7 +12,7 @@ This repository contains multiple projects and resources that highlight differen
 - **Automation Exercise – Cypress E2E Tests**  
   End-to-end test automation for the [Automation Exercise](https://automationexercise.com/) demo e-commerce site.  
   Covers authentication, product search, cart & checkout, and miscellaneous flows.  
-  📄 [Project README](automation_exercise/README.md)
+  📄 [Project README](cypress_automation_exercise/README.md)
 
 - **Software Testing Board – Cypress E2E Tests** *(in progress)*  
   Automated tests for [Magento demo site](https://magento.softwaretestingboard.com/) focusing on real-world e-commerce flows.

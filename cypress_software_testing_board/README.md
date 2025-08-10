@@ -1,7 +1,7 @@
 # Magento Cypress Test Suite
 
 This project contains end-to-end (E2E) automated tests for the **Magento Demo Store** ([https://magento.softwaretestingboard.com](https://magento.softwaretestingboard.com)).  
-It is a self-contained Cypress project located in the `software_testing_board` directory, separate from other automation projects in this repository.
+It is a self-contained Cypress project located in the `cypress_software_testing_board` directory, separate from other automation projects in this repository.
 
 ## Purpose
 
@@ -19,7 +19,7 @@ The Magento demo site is designed for testing and learning, so these tests are s
 
 ## File Structure
 ```
-software_testing_board/
+cypress_software_testing_board/
 ├── cypress/
 │ ├── e2e/
 │ │ ├── account/
@@ -76,7 +76,7 @@ Covers **guest checkout** from adding a product to cart through to placing an or
 
 ## Why This Project Is Separate
 
-This `software_testing_board` project is intentionally kept **separate from other automation projects** in the repository to:
+This `cypress_software_testing_board` project is intentionally kept **separate from other automation projects** in the repository to:
 - Maintain independent configurations (`cypress.config.js`)
 - Avoid conflicts in dependencies
 - Keep tests isolated and focused on the Magento demo site
@@ -88,7 +88,7 @@ This `software_testing_board` project is intentionally kept **separate from othe
 
 ### 1. Install dependencies
 
-- cd software_testing_board
+- cd cypress_software_testing_board
 - npm install
 
 ### 2. Open Cypress Test Runner

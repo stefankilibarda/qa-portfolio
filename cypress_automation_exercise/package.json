@@ -1,5 +1,5 @@
 {
-  "name": "automation_exercise",
+  "name": "cypress_automation_exercise",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
