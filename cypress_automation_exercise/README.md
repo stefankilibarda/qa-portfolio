@@ -7,6 +7,7 @@ It was created to demonstrate test automation skills using **Cypress** in JavaSc
 
 ## 📂 Project Structure
 ```
+cypress_automation_exercise/
 cypress/
 ├── e2e/
 │ ├── auth.cy.js
