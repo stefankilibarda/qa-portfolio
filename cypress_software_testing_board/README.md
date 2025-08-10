@@ -27,7 +27,7 @@ cypress_software_testing_board/
 │ │ ├── cart/
 │ │ │ └── cart_editing.cy.js
 │ │ ├── catalog/
-│ │ │ ├── pdp_required_options.cy.js
+│ │ │ ├── product_detail_required_options.cy.js
 │ │ │ └── search_filter_add_to_cart.cy.js
 │ │ └── checkout/
 │ │ └── guest_checkout.cy.js
