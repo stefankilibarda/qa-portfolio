@@ -50,7 +50,7 @@ This repository contains multiple projects and resources that highlight differen
 | ----------------- | ------------ |
 | Automation        | Cypress (JavaScript) |
 | Manual Testing    | Functional / Regression / Exploratory, Test Design |
-| API Testing       | Postman |
+| API Testing       | Postman (REST API) |
 | Database Testing  | MySQL |
 | OS / Environment  | Linux Ubuntu |
 
